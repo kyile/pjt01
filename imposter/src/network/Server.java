@@ -1,5 +1,5 @@
-package server;
+package network;
 
 public class Server {
 
- }
+}
