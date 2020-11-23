@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="login_title" alignment="CENTER" layoutX="189.0" layoutY="86.0" prefHeight="54.0" prefWidth="222.0" text="회원가입">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="255.0" text="ID">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="99.0" layoutY="348.0" text="비밀번호 ">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField layoutX="248.0" layoutY="259.0" />
+      <TextField layoutX="248.0" layoutY="391.0" />
+      <Button layoutX="397.0" layoutY="258.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="86.0" text="중복체크" />
+      <Label layoutX="100.0" layoutY="298.0" text="이름">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="102.0" layoutY="433.0" text="이메일">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField layoutX="248.0" layoutY="301.0" />
+      <Button layoutX="395.0" layoutY="538.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="86.0" text="완료" />
+      <TextField layoutX="248.0" layoutY="438.0" />
+      <TextField layoutX="247.0" layoutY="349.0" />
+      <Label layoutX="98.0" layoutY="389.0" text="비밀번호 확인 ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
